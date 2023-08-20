@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Header{
+    background-color:rgba(0,0,0,0.9);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    box-shadow: 0 3px 6px 0 #555;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.appName{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.recipeImg{
+    width: 54px;
+    height: 50px;
+    margin: 7px;
+}
+
+.navComponents{
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.bg-image{
+    background: linear-gradient(rgba(8, 8, 8, 0.582), rgba(8, 8, 8, 0.515)), url('https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    min-height: 87vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header-title {
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 12px;
+    color: #fff;
+    font-size: 60px;
+    margin-bottom: 32px;
+  }
+
+.content{
+    text-transform: uppercase;
+    letter-spacing: 12px;
+    color: #fff;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 32px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-family: 'Open Sans', sans-serif;
+    transform: translate(-50%, -50%);
+}
+
+.search-button{
+    text-decoration: none;
+}
+
+form{
+    justify-content: center;
+    align-items: center;
+    margin-top: 18px;
+    display: flex;
+}
+
+input[type=text]{
+    font-size: 20px;
+    padding: 3px 10px;
+    outline: none;
+    border: 2px solid brown;
+    border-radius: 3px;
+  
+    margin: 20px;
+}
+
+input[type=submit]{
+    font-size: 20px;
+    padding: 3px 10px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+.seeMore{
+    color: #eb3300;
+    font-size: 18px;
+    text-align: center;
+    border: solid 1px #eb3300;
+    border-radius: 3px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.ingredientsText{
+    color: green;
+    border: solid 1px green;
+    margin-bottom: 12px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 3px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.seeNew{
+    color: green;
+    border: solid 1px green;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 3px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.recipeName{
+    font-size: 18px;
+    font-weight: 600;
+    color: #8e2828;
+    margin: 10px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.recipeContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 300px;
+    box-shadow: 0 3px 10px 0 #aaa;
+}
+
+.coverImg{
+    object-fit: cover;
+    height: 200px;    
+}
+
+.recipes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 30px;
+    gap: 20px;
+    justify-content: space-evenly;
+    
+}
+
+.container{
+    background: url("https://www.transparenttextures.com/patterns/circles.png");
+    min-height: 86vh;
+    margin-top: -13px;
+}
+
+.noRes{
+    color: purple;
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer {
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    
+    width: 100%;
+    height: 2.5rem;
+}
+  
+footer p {
+    color: #ccc;
+}
